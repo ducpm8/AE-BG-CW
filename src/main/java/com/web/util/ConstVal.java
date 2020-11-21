@@ -1,0 +1,111 @@
+package com.web.util;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ConstVal {
+	public static final Map<String, String> storeName;
+	public static final Map<String, String> storeFeedbackLink;
+	public static final Map<String, String> stateMap;
+    static {
+    	Map<String, String> feedbackLinkMap = new HashMap<String, String>();
+    	feedbackLinkMap.put("AUN","www");
+    	feedbackLinkMap.put("AO","www");
+    	feedbackLinkMap.put("BS","www");
+    	feedbackLinkMap.put("CG","www");
+    	feedbackLinkMap.put("DJ","www");
+    	feedbackLinkMap.put("EE","www");
+    	feedbackLinkMap.put("EZ","www");
+    	feedbackLinkMap.put("H75","www");
+    	feedbackLinkMap.put("HG","www");
+    	feedbackLinkMap.put("HF","www");
+    	feedbackLinkMap.put("MU","www");
+    	feedbackLinkMap.put("MTLLC","www");
+    	feedbackLinkMap.put("MT","www");
+    	feedbackLinkMap.put("NM","www");
+    	feedbackLinkMap.put("P27","www");
+    	
+    	storeFeedbackLink = Collections.unmodifiableMap(feedbackLinkMap);
+    	
+    	Map<String, String> storeMap = new HashMap<String, String>();
+    	storeMap.put("AUN","ALLYOUNEEDNow");
+    	storeMap.put("AO","AmericanOutfitter");
+    	storeMap.put("BS","BlueScreenllc");
+    	storeMap.put("CG","ChefGen");
+    	storeMap.put("DJ","DealsJungle");
+    	storeMap.put("EE","ElectroExperts");
+    	storeMap.put("EZ","EZ2Shop");
+    	storeMap.put("H75","Harmony75fun");
+    	storeMap.put("HG","Higarden");
+    	storeMap.put("HF","HillsideFire");
+    	storeMap.put("MU","maximump852");
+    	storeMap.put("MTLLC","MiamiTraderllc");
+    	storeMap.put("MT","MountainTops");
+    	storeMap.put("NM","note5movbook");
+    	storeMap.put("P27","pier27");
+    	
+    	storeName = Collections.unmodifiableMap(storeMap);
+    	
+        Map<String, String> aMap = new HashMap<String, String>();
+        aMap.put("AL","Alabama");
+        aMap.put("AK","Alaska");
+        aMap.put("AS","America Samoa");
+        aMap.put("AZ","Arizona");
+        aMap.put("AR","Arkansas");
+        aMap.put("CA","California");
+        aMap.put("CO","Colorado");
+        aMap.put("CT","Connecticut");
+        aMap.put("DE","Delaware");
+        aMap.put("DC","District of Columbia");
+        aMap.put("FM","Micronesia1");
+        aMap.put("FL","Florida");
+        aMap.put("GA","Georgia");
+        aMap.put("GU","Guam");
+        aMap.put("HI","Hawaii");
+        aMap.put("ID","Idaho");
+        aMap.put("IL","Illinois");
+        aMap.put("IN","Indiana");
+        aMap.put("IA","Iowa");
+        aMap.put("KS","Kansas");
+        aMap.put("KY","Kentucky");
+        aMap.put("LA","Louisiana");
+        aMap.put("ME","Maine");
+        aMap.put("MH","Islands1");
+        aMap.put("MD","Maryland");
+        aMap.put("MA","Massachusetts");
+        aMap.put("MI","Michigan");
+        aMap.put("MN","Minnesota");
+        aMap.put("MS","Mississippi");
+        aMap.put("MO","Missouri");
+        aMap.put("MT","Montana");
+        aMap.put("NE","Nebraska");
+        aMap.put("NV","Nevada");
+        aMap.put("NH","New Hampshire");
+        aMap.put("NJ","New Jersey");
+        aMap.put("NM","New Mexico");
+        aMap.put("NY","New York");
+        aMap.put("NC","North Carolina");
+        aMap.put("ND","North Dakota");
+        aMap.put("OH","Ohio");
+        aMap.put("OK","Oklahoma");
+        aMap.put("OR","Oregon");
+        aMap.put("PW","Palau");
+        aMap.put("PA","Pennsylvania");
+        aMap.put("PR","Puerto Rico");
+        aMap.put("RI","Rhode Island");
+        aMap.put("SC","South Carolina");
+        aMap.put("SD","South Dakota");
+        aMap.put("TN","Tennessee");
+        aMap.put("TX","Texas");
+        aMap.put("UT","Utah");
+        aMap.put("VT","Vermont");
+        aMap.put("VI","Virgin Island");
+        aMap.put("VA","Virginia");
+        aMap.put("WA","Washington");
+        aMap.put("WV","West Virginia");
+        aMap.put("WI","Wisconsin");
+        aMap.put("WY","Wyoming");
+        stateMap = Collections.unmodifiableMap(aMap);
+    }
+}
